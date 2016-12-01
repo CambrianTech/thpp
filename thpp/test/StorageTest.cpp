@@ -63,7 +63,7 @@ TEST(Storage, CustomAllocator) {
 //     g_ptr = thStorage->data;
 //     auto buf = storage.getIOBuf();
 //     THFloatStorage_free(thStorage);
-//     EXPECT_EQ(ctx.nFree, 0);
+    EXPECT_EQ(ctx.nFree, 0);
   }
   EXPECT_EQ(ctx.nMalloc, 1);
   EXPECT_EQ(ctx.nFree, 1);
