@@ -8,7 +8,7 @@
 
 ADD_EXECUTABLE(storage_test StorageTest.cpp)
 TARGET_LINK_LIBRARIES(storage_test thpp gtest gtest_main)
-ADD_TEST(storage_test storage_test)
+#ADD_TEST(storage_test storage_test)
 
 ADD_EXECUTABLE(tensor_test TensorTest.cpp)
 TARGET_LINK_LIBRARIES(tensor_test thpp gtest gtest_main)
